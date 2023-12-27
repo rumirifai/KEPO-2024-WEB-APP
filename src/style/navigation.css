@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+.myContainer {
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    right: 50px;
+    z-index: 1;
+}

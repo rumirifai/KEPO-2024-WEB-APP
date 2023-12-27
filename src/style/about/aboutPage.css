@@ -1,0 +1,7 @@
+.aboutBG {
+    height: 272vh;
+    width: 100%;
+    background: url("../../../public/img/bg/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,7 +1,16 @@
-const Info = () => {
-    return (
-        <h1>Ini halaman info</h1>
-    )
-}
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+import "../style/info/infoPage.css";
 
-export default Info
+const Info = () => {
+  return (
+    <div>
+      <div className="infoBG">
+        <Navigation />
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Info;

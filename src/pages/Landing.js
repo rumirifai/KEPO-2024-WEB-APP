@@ -1,5 +1,5 @@
-import Navigation from "../components/landing/Navigation";
-import Footer from "../components/landing/Footer";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 import Intro from "../components/landing/Intro";
 import Maskot from "../components/landing/Maskot";
 import Timeline from "../components/landing/Timeline";
@@ -17,6 +17,6 @@ const Landing = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default Landing;

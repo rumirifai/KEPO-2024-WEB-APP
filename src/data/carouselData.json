@@ -1,0 +1,16 @@
+{
+    "slides": [
+        {
+            "src": "/img/kepo/dokum1.png",
+            "alt": "dokumentasi-1" 
+        },
+        {
+            "src": "/img/kepo/dokum2.png",
+            "alt": "dokumentasi-2"
+        },
+        {
+            "src": "/img/kepo/dokum3.png",
+            "alt": "dokumentasi-3"
+        }
+    ]
+}
