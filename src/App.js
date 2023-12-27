@@ -1,22 +1,17 @@
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
-import Intro from "./components/Intro";
-import Maskot from "./components/Maskot";
-import Timeline from "./components/Timeline";
-import "./App.css";
-import "./style/landingPage.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
+import About from "./pages/About";
+import Info from "./pages/Info";
 
 function App() {
   return (
-    <div>
-      <div className="myBG">
-        <Navigation />
-        <Intro />
-        <Maskot />
-        <Timeline />
-      </div>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/info" element={<Info />} />
+      </Routes>
+    </Router>
   );
 }
 

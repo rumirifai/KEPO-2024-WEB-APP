@@ -1,7 +1,7 @@
 .myBG {
     height: 335vh;
     width: 100%;
-    background: url("../../public/img/bg/landing.png");
+    background: url("../../../public/img/bg/landing.png");
     background-size:cover;
     background-repeat: no-repeat;
 }

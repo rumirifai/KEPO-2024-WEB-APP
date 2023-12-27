@@ -1,5 +1,5 @@
 import {Container} from "react-bootstrap";
-import "../style/intro.css";
+import "../../style/landing/intro.css";
 
 const Intro = () => {
   return (

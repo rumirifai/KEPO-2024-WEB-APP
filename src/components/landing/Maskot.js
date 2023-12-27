@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import "../style/maskot.css";
+import "../../style/landing/maskot.css";
 
 const Maskot = () => {
   return (

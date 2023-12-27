@@ -1,5 +1,6 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
-import "../style/navigation.css";
+import "../../style/landing/navigation.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -15,8 +16,10 @@ const Navigation = () => {
             />
           </Navbar.Brand>
           <Nav>
-            <Nav.Link>INFO PTN</Nav.Link>
-            <Nav.Link>ABOUT US</Nav.Link>
+            <Link to="/info" className="nav-link">INFO PTN</Link>
+            <Link to="/about" className="nav-link">ABOUT US</Link>
+            {/* <Nav.Link>INFO PTN</Nav.Link>
+            <Nav.Link>ABOUT US</Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>
