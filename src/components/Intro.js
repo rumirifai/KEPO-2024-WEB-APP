@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div className="intro">
       <Container>
-        <img src="/img/kepo/logo.png" alt="Logo" width="500px" height="500px" />
+        <img src="/img/kepo/logo.png" alt="Logo" width="400px" height="400px" />
         <div className="title-name">kedubes expo</div>
         <div className="title-year">2024</div>
         <div className="tagline">find your endless ocean</div>

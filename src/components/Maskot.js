@@ -6,15 +6,15 @@ const Maskot = () => {
     <div className="maskot">
       <Container>
         <Row>
-          <Col xs={8}>
+          <Col xs={7}>
             <div className="name">okky is here!</div>
           </Col>
-          <Col className="okky" xs={4}>
+          <Col className="okky" xs={5}>
             <img
               src="/img/kepo/okky.png"
               alt="okky"
-              width="478.65px"
-              height="381.46px"
+              width=" 358.9875px"
+              height="286.095px"
             />
           </Col>
         </Row>

@@ -5,13 +5,13 @@ const Navigation = () => {
   return (
     <div>
       <Navbar>
-        <Container fluid="md" className="myContainer">
+        <Container fluid="sm" className="myContainer">
           <Navbar.Brand>
             <img
               src="/img/kepo/logo.png"
               alt="Logo"
-              width="47px"
-              height="49.19px"
+              width="37px"
+              height="39.19px"
             />
           </Navbar.Brand>
           <Nav>
