@@ -10,10 +10,19 @@
 .mySlide {
     width: 100%;
     height: 100%;
+    opacity: 0;
+    transition-duration: 1s ease;
+    overflow: hidden;
 }
 
-.mySlide-hidden {
+/* .mySlide.mySlide-hidden {
     display: none;
+} */
+
+.mySlideActive {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: translateX(100);
 }
 
 .arrow {
@@ -21,6 +30,7 @@
     width: 4rem;
     height: 4rem;
     color: rgba(255, 255, 255, 0.483);
+    z-index: 2;
 }
 
 .arrow:hover {

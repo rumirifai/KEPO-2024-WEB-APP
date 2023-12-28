@@ -24,7 +24,7 @@ const Dokumentasi = ({ data }) => {
             key={idx}
             width="100%"
             height="550px"
-            className={slide === idx ? "mySlide" : "mySlide mySlide-hidden"}
+            className={slide === idx ? "mySlideActive" : "mySlide"}
           />
         );
       })}
