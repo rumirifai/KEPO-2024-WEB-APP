@@ -15,10 +15,6 @@
     overflow: hidden;
 }
 
-/* .mySlide.mySlide-hidden {
-    display: none;
-} */
-
 .mySlideActive {
     opacity: 1;
     transition-duration: 1s;
