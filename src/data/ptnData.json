@@ -1,0 +1,37 @@
+[
+  {
+    "imgSrc": "img/ptn/snbp.png",
+    "altText": "SNBP",
+    "link": "https://snpmb.bppp.kemdikbud.go.id/snbp/informasi-umum"
+  },
+  {
+    "imgSrc": "img/ptn/snbt.png",
+    "altText": "SNBT",
+    "link": "https://snpmb.bppp.kemdikbud.go.id/utbk-snbt/informasi-umum"
+  },
+  {
+    "imgSrc": "img/ptn/simakui.png",
+    "altText": "SIMAK UI",
+    "link": "https://simak.ui.ac.id/tentang-simak.html"
+  },
+  {
+    "imgSrc": "img/ptn/smitb.png",
+    "altText": "SM ITB",
+    "link": "https://admission.itb.ac.id/home/sarjana/mandiri"
+  },
+  {
+    "imgSrc": "img/ptn/utulugm.png",
+    "altText": "UTUL UGM",
+    "link": "https://um.ugm.ac.id/ujian-mandiri-computer-based-test-cbt-ugm-2023/"
+  },
+  {
+    "imgSrc": "img/ptn/smupunpad.png",
+    "altText": "SMUP UNPAD",
+    "link": "https://smup.unpad.ac.id/latar-belakang/"
+  },
+  {
+    "imgSrc": "img/ptn/umundip.png",
+    "altText": "UM UNDIP",
+    "link": "https://pmb.undip.ac.id/sarjana/jalur-um-sarjana/"
+  }
+]

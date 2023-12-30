@@ -25,7 +25,13 @@ const Booklet = () => {
               perjalanan di dunia perkuliahan nanti.
             </div>
             <button className="buttonBooklet">
-              <strong>Download Booklet</strong>
+              <a
+                href=""
+                target="_blank"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <strong>Download Booklet</strong>
+              </a>
             </button>
           </Col>
         </Row>
