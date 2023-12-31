@@ -5,8 +5,8 @@ import "../style/navigation.css";
 const Navigation = () => {
   return (
     <div>
-      <Navbar>
-        <Container fluid="sm" className="myContainer">
+      <Navbar expand="lg">
+        <Container className="myContainer">
           <Navbar.Brand>
             <Link to="/">
               <img
@@ -17,14 +17,22 @@ const Navigation = () => {
               />
             </Link>
           </Navbar.Brand>
-          <Nav>
-            <Link to="/info" className="nav-link">
-              INFO PTN
-            </Link>
-            <Link to="/about" className="nav-link">
-              ABOUT US
-            </Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" className="border-0">
+            <Nav className="navbarLinked">
+              <div className="d-lg-none">
+                <Link to="/" className="nav-link">
+                  HOME
+                </Link>
+              </div>
+              <Link to="/info" className="nav-link">
+                INFO PTN
+              </Link>
+              <Link to="/about" className="nav-link">
+                ABOUT US
+              </Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>

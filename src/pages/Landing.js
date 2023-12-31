@@ -11,10 +11,12 @@ const Landing = () => {
       <div className="myBG">
         <Navigation />
         <Intro />
-        <Maskot />
-        <Timeline />
+        <div className="landingDesktop">
+          <Maskot />
+          <Timeline />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

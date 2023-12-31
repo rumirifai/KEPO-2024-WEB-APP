@@ -8,9 +8,55 @@
     font-weight: bolder;
     text-transform: uppercase;
     height: 40px;
-    position: absolute;
-    top: 20px;
-    left: 50px;
-    right: 50px;
-    z-index: 1;
+    position: relative;
+    z-index: 10;
+}
+
+.navbarLinked {
+    margin-left: auto;
+}
+
+.navbar-toggler.collapsed {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .myContainer {
+        background-color: white;
+        border-radius: 50px;
+        margin-top: 50px;
+        font-family: 'Fredoka', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        right: 50px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .myContainer {
+        margin-top: 30px;
+        height: 55px;
+    }
+
+    .navbarLinked {
+        background-color: rgba(255, 255, 255, 0.504);
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+        z-index: 1;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+    }
 }

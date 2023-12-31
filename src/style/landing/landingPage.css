@@ -1,7 +1,21 @@
 .myBG {
-    height: 335vh;
+    height: auto;
     width: 100%;
     background: url("../../../public/img/bg/landing.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .myBG {
+        height: auto;
+        width: 100%;
+        background: url("../../../public/img/bg/landingMobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .landingDesktop {
+        display: none;
+    }
 }
