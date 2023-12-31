@@ -1,7 +1,21 @@
 .aboutBG {
-    height: 272vh;
+    height: auto;
     width: 100%;
     background: url("../../../public/img/bg/about.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .aboutBG {
+        height: auto;
+        width: 100%;
+        background: url("../../../public/img/bg/aboutMobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .aboutDesktop {
+        display: none;
+    }
 }

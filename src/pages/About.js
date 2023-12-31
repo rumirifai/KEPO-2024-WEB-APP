@@ -11,11 +11,13 @@ const About = () => {
     <div>
       <div className="aboutBG">
         <Navigation />
-        <Dokumentasi data={slides.slides} />
+        <div className="aboutDesktop">
+          <Dokumentasi data={slides.slides} />
+        </div>
         <Kepo />
         <Theme />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

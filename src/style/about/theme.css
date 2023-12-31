@@ -6,9 +6,10 @@
     margin: auto;
     width: 90%;
     border-radius: 50px;
-    padding: 40px;
+    padding: 10px;
     background-color: #79a8d88b;
     margin-top: 50px;
+    margin-bottom: 110px;
 }
 
 .descTheme {
@@ -24,4 +25,32 @@
 .fotoTheme {
     text-align: left;
     font-size: larger;
+}
+
+@media (max-width: 768px) {
+    .aboutTheme {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .descTheme {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .fotoTheme {
+        margin-top: 5px;
+    }
+
+    .fotoTheme img {
+        width: 75%;
+        margin-left: 35px;
+        height: auto;
+    }
 }
