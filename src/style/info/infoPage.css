@@ -1,7 +1,17 @@
 .infoBG {
-    height: 250vh;
+    height: auto;
     width: 100%;
     background: url("../../../public/img/bg/info.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .infoBG {
+        height: auto;
+        width: 100%;
+        background: url("../../../public/img/bg/infoMobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }

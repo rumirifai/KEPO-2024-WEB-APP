@@ -14,16 +14,21 @@
     text-transform: uppercase;
 }
 
-/* sliderPtn.css */
 .fotoWrapper {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    /* Updated to full width for responsiveness */
+    height: auto;
+    /* Updated for responsiveness */
+    max-width: 350px;
+    /* Added for responsiveness */
+    margin: 0 auto;
+    /* Center the images */
 }
 
 .fotoPtn {
     width: 100%;
-    height: 100%;
+    height: auto;
     transition: filter 0.3s;
 }
 
@@ -47,4 +52,30 @@
 
 .fotoWrapper:hover .imageText {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .slideptn {
+        background-color: #79a8d88b;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    .titlePtn {
+        font-size: 30px;
+        background: linear-gradient(to bottom, #FFFFFF 25%, #56AADA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+
+    .fotoPtn {
+        width: 100%;
+        height: auto;
+        transition: filter 0.3s;
+    }
+
+    .imageText {
+        font-size: 20px;
+    }
 }

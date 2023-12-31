@@ -13,8 +13,8 @@ const Info = () => {
         <SliderPtn />
         <Record />
         <Booklet />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

@@ -31,10 +31,11 @@
     .aboutTheme {
         width: 100%;
         border-radius: 0;
+        padding: 30px;
     }
 
     .title {
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -50,7 +51,7 @@
 
     .fotoTheme img {
         width: 75%;
-        margin-left: 35px;
+        margin-left: 43px;
         height: auto;
     }
 }
