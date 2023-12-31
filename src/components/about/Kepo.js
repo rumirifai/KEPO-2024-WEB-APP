@@ -20,7 +20,7 @@ const Kepo = () => {
           <Col xs={5}>
             <div className="fotoKepo">
               <img
-                src="/img/kepo/kepo.png"
+                src="/img/kepo/kepo.jpg"
                 alt="kepo"
                 width="419.25px"
                 height="344.25px"
