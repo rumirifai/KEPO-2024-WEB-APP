@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Record from "../components/info/Record";
 import Booklet from "../components/info/Booklet";
 import SliderPtn from "../components/info/SliderPtn";
+import Beasiswa from "../components/info/Beasiswa";
 import "../style/info/infoPage.css";
 
 const Info = () => {
@@ -13,6 +14,7 @@ const Info = () => {
         <SliderPtn />
         <Record />
         <Booklet />
+        <Beasiswa />
         <Footer />
       </div>
     </div>
